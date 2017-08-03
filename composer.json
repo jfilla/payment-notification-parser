@@ -1,0 +1,17 @@
+{
+  "name": "jfilla/payment-notification-parser",
+  "authors": [
+    {
+      "name": "Jakub Filla",
+      "email": "jakub.filla@seznam.cz"
+    }
+  ],
+  "require-dev": {
+    "nette/tester": "^1.7"
+  },
+  "autoload": {
+    "psr-4": {
+      "PaymentNotificationParser\\": "src/"
+    }
+  }
+}
