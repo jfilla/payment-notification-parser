@@ -2,7 +2,7 @@
 
 namespace PaymentNotificationParser;
 
-class TextParserException
+class TextParserException extends \Exception
 {
 
 }
