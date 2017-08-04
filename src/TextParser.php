@@ -8,7 +8,7 @@ class TextParser
 	public function parseByBank($text, $bank)
 	{
 		if (!Bank::isSupported($bank)) {
-			throw new TextParserException("Bank '$bank' not supported.");
+			throw new TextParserException("Bank '$bank' not supported.", TextParserException::BANK_NOT_SUPPORTED);
 		}
 		return $this->parseByTemplate($text, $this->loadTemplate($bank));
 	}
@@ -28,7 +28,10 @@ class TextParser
 		foreach (array_slice($this->matchAll("$extractorRegex", $this->normalize($text)), 1) as $key => $group) {
 			$parameterName = $parameters[$key];
 			if (!$notificationReflection->hasProperty($parameterName)) {
-				throw new TextParserException("Invalid parameter '$parameterName'.");
+				throw new TextParserException(
+					"Invalid parameter '$parameterName'.",
+					TextParserException::INVALID_PARAMETER
+				);
 			}
 			$notification->{'set' . ucfirst($parameterName)}($group[0]);
 		}
@@ -40,7 +43,7 @@ class TextParser
 		$matches = [];
 		$r = preg_match_all("/$pattern/", $subject, $matches);
 		if ($r === FALSE || $r === 0) {
-			throw new TextParserException('No matches: invalid template.');
+			throw new TextParserException('No matches: invalid template.', TextParserException::INVALID_TEMPLATE);
 		}
 		return $matches;
 	}
