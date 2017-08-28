@@ -21,7 +21,7 @@ class TextParser
 		$template = preg_quote($template, '/');
 		$extractorRegex = preg_replace(
 			'/\\\\\[\\\\\[([a-zA-Z]+)\\\\\]\\\\\]/',
-			'(.+)',
+			'(.*)',
 			$template
 		);
 		$notificationReflection = new \ReflectionClass(Notification::class);

@@ -17,6 +17,12 @@ class Notification
 
 	private $dueDate;
 
+	private $specificSymbol;
+
+	private $transactionType;
+
+	private $avField;
+
 	public function getSenderAccountNumber()
 	{
 		return $this->senderAccountNumber;
@@ -98,6 +104,48 @@ class Notification
 	public function setDueDate($dueDate)
 	{
 		$this->dueDate = $dueDate;
+		return $this;
+	}
+
+	public function getSpecificSymbol()
+	{
+		return $this->specificSymbol;
+	}
+
+	/**
+	 * @param mixed $specificSymbol
+	 */
+	public function setSpecificSymbol($specificSymbol)
+	{
+		$this->specificSymbol = $specificSymbol;
+		return $this;
+	}
+
+	public function getTransactionType()
+	{
+		return $this->transactionType;
+	}
+
+	/**
+	 * @param mixed $transactionType
+	 */
+	public function setTransactionType($transactionType)
+	{
+		$this->transactionType = $transactionType;
+		return $this;
+	}
+
+	public function getAvField()
+	{
+		return $this->avField;
+	}
+
+	/**
+	 * @param mixed $avField
+	 */
+	public function setAvField($avField)
+	{
+		$this->avField = $avField;
 		return $this;
 	}
 }

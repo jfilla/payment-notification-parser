@@ -26,6 +26,10 @@ class TextParserTest extends TestCase
 		Assert::equal('CZK', $notification->getCurrency());
 		Assert::equal('31.07.2017', $notification->getDueDate());
 		Assert::equal('20170039', $notification->getPaymentReferenceNumber());
+		Assert::equal('0', $notification->getSpecificSymbol());
+		Assert::equal('Úhrada.', $notification->getTransactionType());
+		Assert::equal('', $notification->getAvField());
+
 	}
 
 	public function testParseByTemplate()
