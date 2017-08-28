@@ -1,3 +1,4 @@
 /vendor/
 .idea/
 coverage.html
+composer.lock

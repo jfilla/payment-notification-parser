@@ -40,7 +40,8 @@ class TextParserTest extends TestCase
 				$parser->parseByBank('some text', 'gringotts');
 			},
 			TextParserException::class,
-			"Bank 'gringotts' not supported."
+			"Bank 'gringotts' not supported.",
+			TextParserException::BANK_NOT_SUPPORTED
 		);
 	}
 
@@ -52,7 +53,8 @@ class TextParserTest extends TestCase
 				$parser->parseByTemplate('some text', 'gringotts');
 			},
 			TextParserException::class,
-			"No matches: invalid template."
+			"No matches: invalid template.",
+			TextParserException::INVALID_TEMPLATE
 		);
 	}
 
@@ -64,7 +66,8 @@ class TextParserTest extends TestCase
 				$parser->parseByTemplate('follow white rabbit', 'follow [[color]] rabbit');
 			},
 			TextParserException::class,
-			"Invalid parameter 'color'."
+			"Invalid parameter 'color'.",
+			TextParserException::INVALID_PARAMETER
 		);
 	}
 }
