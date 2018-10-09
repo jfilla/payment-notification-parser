@@ -23,14 +23,13 @@ class Notification
 
 	private $avField;
 
+	private $underlineText;
+
 	public function getSenderAccountNumber()
 	{
 		return $this->senderAccountNumber;
 	}
 
-	/**
-	 * @param mixed $senderAccountNumber
-	 */
 	public function setSenderAccountNumber($senderAccountNumber)
 	{
 		$this->senderAccountNumber = $senderAccountNumber;
@@ -42,9 +41,6 @@ class Notification
 		return $this->recipientAccountNumber;
 	}
 
-	/**
-	 * @param mixed $recipientAccountNumber
-	 */
 	public function setRecipientAccountNumber($recipientAccountNumber)
 	{
 		$this->recipientAccountNumber = $recipientAccountNumber;
@@ -56,9 +52,6 @@ class Notification
 		return $this->price;
 	}
 
-	/**
-	 * @param mixed $price
-	 */
 	public function setPrice($price)
 	{
 		$this->price = $price;
@@ -70,9 +63,6 @@ class Notification
 		return $this->currency;
 	}
 
-	/**
-	 * @param mixed $currency
-	 */
 	public function setCurrency($currency)
 	{
 		$this->currency = $currency;
@@ -84,9 +74,6 @@ class Notification
 		return $this->paymentReferenceNumber;
 	}
 
-	/**
-	 * @param mixed $paymentReferenceNumber
-	 */
 	public function setPaymentReferenceNumber($paymentReferenceNumber)
 	{
 		$this->paymentReferenceNumber = $paymentReferenceNumber;
@@ -98,9 +85,6 @@ class Notification
 		return $this->dueDate;
 	}
 
-	/**
-	 * @param mixed $dueDate
-	 */
 	public function setDueDate($dueDate)
 	{
 		$this->dueDate = $dueDate;
@@ -112,9 +96,6 @@ class Notification
 		return $this->specificSymbol;
 	}
 
-	/**
-	 * @param mixed $specificSymbol
-	 */
 	public function setSpecificSymbol($specificSymbol)
 	{
 		$this->specificSymbol = $specificSymbol;
@@ -126,9 +107,6 @@ class Notification
 		return $this->transactionType;
 	}
 
-	/**
-	 * @param mixed $transactionType
-	 */
 	public function setTransactionType($transactionType)
 	{
 		$this->transactionType = $transactionType;
@@ -140,12 +118,22 @@ class Notification
 		return $this->avField;
 	}
 
-	/**
-	 * @param mixed $avField
-	 */
 	public function setAvField($avField)
 	{
 		$this->avField = $avField;
 		return $this;
 	}
+
+	public function getUnderlineText()
+	{
+		return $this->underlineText;
+	}
+
+	public function setUnderlineText($underlineText)
+	{
+		$this->underlineText = $underlineText;
+		return $this;
+	}
+
+
 }

@@ -16,20 +16,8 @@ class TextParserTest extends TestCase
 
 	public function testParseByBank()
 	{
-		$parser = new TextParser();
-		$notification = file_get_contents(__DIR__ . '/notifications/' . Bank::KOMERCNI_BANKA);
-		$notification = $parser->parseByBank($notification, Bank::KOMERCNI_BANKA);
-		Assert::type(Notification::class, $notification);
-		Assert::equal('2576524359/0800', $notification->getSenderAccountNumber());
-		Assert::equal('107-8629020267/0100', $notification->getRecipientAccountNumber());
-		Assert::equal('593,00', $notification->getPrice());
-		Assert::equal('CZK', $notification->getCurrency());
-		Assert::equal('31.07.2017', $notification->getDueDate());
-		Assert::equal('20170039', $notification->getPaymentReferenceNumber());
-		Assert::equal('0', $notification->getSpecificSymbol());
-		Assert::equal('Úhrada.', $notification->getTransactionType());
-		Assert::equal('', $notification->getAvField());
-
+		$this->parseByBank(Bank::KOMERCNI_BANKA);
+		$this->parseByBank(Bank::KOMERCNI_BANKA . '_2');
 	}
 
 	public function testParseByTemplate()
@@ -69,6 +57,24 @@ class TextParserTest extends TestCase
 			"Invalid parameter 'color'.",
 			TextParserException::INVALID_PARAMETER
 		);
+	}
+
+	private function parseByBank($filename)
+	{
+		$parser = new TextParser();
+		$notificationFile = file_get_contents(__DIR__ . '/notifications/' . $filename);
+		$notification = $parser->parseByBank($notificationFile, Bank::KOMERCNI_BANKA);
+		Assert::type(Notification::class, $notification);
+		Assert::equal('2576524359/0800', $notification->getSenderAccountNumber());
+		Assert::equal('107-8629020267/0100', $notification->getRecipientAccountNumber());
+		Assert::equal('593,00', $notification->getPrice());
+		Assert::equal('CZK', $notification->getCurrency());
+		Assert::equal('31.07.2017', $notification->getDueDate());
+		Assert::equal('20170039', $notification->getPaymentReferenceNumber());
+		Assert::equal('0', $notification->getSpecificSymbol());
+		Assert::equal('Úhrada.', $notification->getTransactionType());
+		Assert::equal('', $notification->getAvField());
+		Assert::type('string', $notification->getUnderlineText());
 	}
 }
 
