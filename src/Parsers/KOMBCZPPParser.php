@@ -32,7 +32,6 @@ class KOMBCZPPParser implements Parser
 		$matches = [];
 		preg_match($pattern, $content, $matches);
 		if (count($matches) === $expectedCount + 1) {
-			print_r($matches);
 			array_shift($matches);
 			return $matches;
 		}
