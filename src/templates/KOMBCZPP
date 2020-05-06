@@ -1,7 +1,0 @@
-Vážená paní, vážený pane.
-
-Oznamujeme vám provedení platby z účtu číslo [[senderAccountNumber]] na účet číslo [[recipientAccountNumber]] částka [[price]] [[currency]] , datum splatnosti [[dueDate]], variabilní symbol platby [[paymentReferenceNumber]], specifický symbol [[specificSymbol]]. Typ transakce: [[transactionType]] AV pole: [[avField]].
-
-Přejeme vám pěkný den, Komerční banka
---
-[[underlineText]]

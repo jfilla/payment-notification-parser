@@ -1,0 +1,775 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="cs">
+<head>
+	<title>Komerèní banka</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+	<meta http-equiv="content-type" content="text/html; charset=windows-1250">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<style type="text/css">
+		img {display: block; border:0 !important;}
+		.responsive-image {max-width: 100% !important; height: auto !important;}
+		.max-width {max-width: 640px !important;}
+		.center {text-align:center !important;}
+		.side-space {width:35px !important;}
+		@media (max-width: 640px) {
+			.max-width {width: 100% !important;}
+			.sm-hide {display:none !important;}
+			.sm-center {text-align:center !important;}
+			.sm-left {text-align:left !important;}
+			.sm-height-auto {height:auto !important;}
+			.sm-block {display:block !important;}
+			.sm-full-w {width:100% !important;}
+			.sm-side-space {width:25px !important;}
+			.sm-side-space-10 {width:10px !important;}
+		}
+		@media (max-width: 480px) {
+			.xs-responsive-image {max-width: 100% !important; height: auto !important;}
+			.xs-hide  {display:none !important;}
+			.xs-center {text-align:center !important;}
+			.xs-left {text-align:left !important;}
+			.xs-full-w {width:100% !important;}
+			.xs-block {display:block !important;}
+			.xs-height-20 {height:20px !important;}
+			.xs-side-space {width:10px !important;}
+			.xs-side-space-20 {width:20px !important;}
+			.xs-headline {font-size:23px !important;}
+			.xs-font-size-13 {font-size:13px !important;}
+		}
+	</style>
+</head>
+<body>
+<div style="padding:0; margin:0; -webkit-text-size-adjust:none; -ms-text-size-adjust:100%; background-color:#ececec">
+	<table border="0" cellspacing="0" cellpadding="0" width="100%" bgcolor="#ececec" style="font-family:Arial, Helvetica, sans-serif">
+		<tr>
+			<td align="center">
+				<table border="0" cellspacing="0" cellpadding="0" class="sm-full-w" width="640" bgcolor="#ececec">
+					<tr>
+						<td align="center">
+							<table border="0" cellspacing="0" cellpadding="0" width="100%" class="max-width" bgcolor="#ffffff">
+								<tr>
+									<td class="xs-height-20" height="35" bgcolor="#ececec"></td>
+								</tr>
+
+								<tr>
+									<td bgcolor="#ececec">
+										<table border="0" cellspacing="0" cellpadding="0" width="100%">
+											<tr>
+												<td class="sm-side-space xs-side-space-20"></td>
+												<td align="left"><img src="http://www.komercni-banka.info/2018/Smart_Inkaso_format_emailu/1/logo.jpg" alt="" title="" style="display:block" border="0" height="36" width="219"></td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+
+								<tr>
+									<td class="xs-height-20" height="35" bgcolor="#ececec"></td>
+								</tr>
+
+								<tr><td height="25"></td></tr>
+
+								<tr>
+									<td>
+										<table border="0" cellspacing="0" cellpadding="0" width="100%">
+											<tr>
+												<td class="side-space sm-side-space xs-side-space-20" width="35"></td>
+												<td>
+													<table border="0" cellspacing="0" cellpadding="0" width="100%">
+														<tr>
+															<td align="left">
+																<span class="xs-headline" style="font-family:Arial Black, Arial, Helvetica, sans-serif; color:#000000; font-size:30px; line-height:120%;"><strong style="text-transform:uppercase">Pøíchozí platba<br class="xs-hide"></strong> </span>
+																<span style="font-family:Arial, Helvetica, sans-serif; color:#7b7b7b; font-size:15px; line-height:140%;">
+                                                               <br>
+                                                               <br>
+                                                              <span style="font-family:Arial, Helvetica, sans-serif; color:#7b7b7b; font-size:20px; line-height:120%;"><strong style="text-transform:uppercase">Èástka: 10,00 CZK</strong>
+
+                                                              </span>
+														</tr>
+													</table>
+												</td>
+												<td class="side-space sm-side-space xs-side-space-20" width="35"></td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+
+								<tr><td height="30"></td></tr>
+
+								<tr>
+									<td>
+										<table border="0" cellspacing="0" cellpadding="0" width="100%">
+											<tr>
+												<td class="side-space sm-side-space xs-side-space-20" width="35"></td>
+												<td>
+													<table border="0" cellspacing="0" cellpadding="0" width="100%">
+														<tr>
+															<td align="left">
+                                                            	<span style="font-family:Arial, Helvetica, sans-serif; color:#7b7b7b; font-size:15px; line-height:140%;">Váená paní, Váený pane,
+                                                                 <br><br>
+                                                                 Platbu z úètu 43-9752450267/0100 jsme pøipsali na úèet 43-34180257/0100.
+                                                                </span>
+															</td>
+														</tr>
+													</table>
+												</td>
+												<td class="side-space sm-side-space xs-side-space-20" width="35"></td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+
+								<tr><td height="30"></td></tr>
+
+								<tr>
+									<td height="20" bgcolor="#ececec"></td>
+								</tr>
+
+								<tr><td height="30"></td></tr>
+
+								<tr>
+									<td>
+										<table border="0" cellspacing="0" cellpadding="0" width="100%">
+											<tr>
+												<td class="side-space sm-side-space xs-side-space-20" width="35"></td>
+												<td>
+													<table border="0" cellspacing="0" cellpadding="0" width="100%">
+														<tr>
+															<td align="left">
+                                                            	<span style="font-family:Arial, Helvetica, sans-serif; color:#cc0033; font-size:20px; line-height:120%;"><strong>Informace o platbì</strong>
+                                                                </span>
+															</td>
+														</tr>
+													</table>
+												</td>
+												<td class="side-space sm-side-space xs-side-space-20" width="35"></td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+
+								<tr><td height="25"></td></tr>
+
+								<tr>
+									<td>
+										<table border="0" cellspacing="0" cellpadding="0" width="100%">
+											<tr>
+												<td class="side-space sm-side-space xs-side-space-20" width="35"></td>
+												<td>
+													<table border="0" cellspacing="0" cellpadding="0" width="100%">
+														<tr>
+															<td width="320" style="border-top:#cc0033 solid 2px; font-size:1px; line-height:1px;">&nbsp;</td>
+														</tr>
+													</table>
+												</td>
+												<td class="side-space sm-side-space xs-side-space-20" width="35"></td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+
+
+								<tr>
+									<td>
+										<table border="0" cellspacing="0" cellpadding="0" width="100%">
+											<tr>
+												<td class="side-space sm-side-space xs-side-space-20" width="35"></td>
+												<td>
+													<table border="0" cellspacing="0" cellpadding="0" width="100%">
+														<tr>
+															<td height="20"></td>
+														</tr>
+														<tr>
+															<td>
+																<table border="0" cellspacing="0" cellpadding="0" width="100%">
+																	<tr>
+																		<td width="10"></td>
+																		<td align="left">
+																			<span style="font-family:Arial, Helvetica, sans-serif; color:#686868; font-size:13px; line-height:140%;">Èástka a mìna: </span>
+																		</td>
+																		<td align="right">
+																			<span style="font-family:Arial, Helvetica, sans-serif; color:#3cb4e7; font-size:13px; line-height:140%;">10,00 CZK</span>
+																		</td>
+																	</tr>
+																</table>
+															</td>
+														</tr>
+														<tr>
+															<td height="20"></td>
+														</tr>
+														<tr>
+															<td>
+																<table border="0" cellspacing="0" cellpadding="0" width="100%">
+																	<tr>
+																		<td width="10"></td>
+																		<td align="left">
+																			<span style="font-family:Arial, Helvetica, sans-serif; color:#686868; font-size:13px; line-height:140%;">Èíslo vaeho úètu: </span>
+																		</td>
+																		<td align="right">
+																			<span style="font-family:Arial, Helvetica, sans-serif; color:#3cb4e7; font-size:13px; line-height:140%;">43-34180257/0100</span>
+																		</td>
+																	</tr>
+																</table>
+															</td>
+														</tr>
+														<tr>
+															<td height="20"></td>
+														</tr>
+														<tr>
+															<td>
+																<table border="0" cellspacing="0" cellpadding="0" width="100%">
+																	<tr>
+																		<td width="10"></td>
+																		<td align="left">
+																			<span style="font-family:Arial, Helvetica, sans-serif; color:#686868; font-size:13px; line-height:140%;">Èíslo protiúètu: </span>
+																		</td>
+																		<td align="right">
+																			<span style="font-family:Arial, Helvetica, sans-serif; color:#3cb4e7; font-size:13px; line-height:140%;">43-9752450267/0100</span>
+																		</td>
+																	</tr>
+																</table>
+															</td>
+														</tr>
+														<tr>
+															<td height="20"></td>
+														</tr>
+														<tr>
+															<td>
+																<table border="0" cellspacing="0" cellpadding="0" width="100%">
+																	<tr>
+																		<td width="10"></td>
+																		<td align="left">
+																			<span style="font-family:Arial, Helvetica, sans-serif; color:#686868; font-size:13px; line-height:140%;">Jméno protiúètu:</span>
+																		</td>
+																		<td align="right">
+																			<span style="font-family:Arial, Helvetica, sans-serif; color:#3cb4e7; font-size:13px; line-height:140%;">BIÈITÌ ADAM</span>
+																		</td>
+																	</tr>
+																</table>
+															</td>
+														</tr>
+														<tr>
+															<td height="20"></td>
+														</tr>
+														<tr>
+															<td>
+																<table border="0" cellspacing="0" cellpadding="0" width="100%">
+																	<tr>
+																		<td width="10"></td>
+																		<td align="left">
+																			<span style="font-family:Arial, Helvetica, sans-serif; color:#686868; font-size:13px; line-height:140%;">Datum splatnosti:</span>
+																		</td>
+																		<td align="right">
+																			<span style="font-family:Arial, Helvetica, sans-serif; color:#3cb4e7; font-size:13px; line-height:140%;">06.05.2020</span>
+																		</td>
+																	</tr>
+																</table>
+															</td>
+														</tr>
+														<tr>
+															<td height="20"></td>
+														</tr>
+														<tr>
+															<td>
+																<table border="0" cellspacing="0" cellpadding="0" width="100%">
+																	<tr>
+																		<td width="10"></td>
+																		<td align="left">
+																			<span style="font-family:Arial, Helvetica, sans-serif; color:#686868; font-size:13px; line-height:140%;">Stav platby:</span>
+																		</td>
+																		<td align="right">
+																			<span style="font-family:Arial, Helvetica, sans-serif; color:#3cb4e7; font-size:13px; line-height:140%;">Zaúètováno</span>
+																		</td>
+																	</tr>
+																</table>
+															</td>
+														</tr>
+														<tr>
+															<td height="20"></td>
+														</tr>
+														<tr>
+															<td>
+																<table border="0" cellspacing="0" cellpadding="0" width="100%">
+																	<tr>
+																		<td width="10"></td>
+																		<td align="left">
+																			<span style="font-family:Arial, Helvetica, sans-serif; color:#686868; font-size:13px; line-height:140%;">Variabilní symbol: </span>
+																		</td>
+																		<td align="right">
+																			<span style="font-family:Arial, Helvetica, sans-serif; color:#3cb4e7; font-size:13px; line-height:140%;">123456789</span>
+																		</td>
+																	</tr>
+																</table>
+															</td>
+														</tr>
+														<tr>
+															<td height="20"></td>
+														</tr>
+														<tr>
+															<td>
+																<table border="0" cellspacing="0" cellpadding="0" width="100%">
+																	<tr>
+																		<td width="10"></td>
+																		<td align="left">
+																			<span style="font-family:Arial, Helvetica, sans-serif; color:#686868; font-size:13px; line-height:140%;">Konstantní symbol: </span>
+																		</td>
+																		<td align="right">
+																			<span style="font-family:Arial, Helvetica, sans-serif; color:#3cb4e7; font-size:13px; line-height:140%;">0</span>
+																		</td>
+																	</tr>
+																</table>
+															</td>
+														</tr>
+														<tr>
+															<td height="20"></td>
+														</tr>
+														<tr>
+															<td>
+																<table border="0" cellspacing="0" cellpadding="0" width="100%">
+																	<tr>
+																		<td width="10"></td>
+																		<td align="left">
+																			<span style="font-family:Arial, Helvetica, sans-serif; color:#686868; font-size:13px; line-height:140%;">Specifický symbol: </span>
+																		</td>
+																		<td align="right">
+																			<span style="font-family:Arial, Helvetica, sans-serif; color:#3cb4e7; font-size:13px; line-height:140%;">0</span>
+																		</td>
+																	</tr>
+																</table>
+															</td>
+														</tr>
+														<tr>
+															<td height="20"></td>
+														</tr>
+														<tr>
+															<td>
+																<table border="0" cellspacing="0" cellpadding="0" width="100%">
+																	<tr>
+																		<td width="10"></td>
+																		<td align="left" valign="top">
+																			<span style="font-family:Arial, Helvetica, sans-serif; color:#686868; font-size:13px; line-height:140%;">Zpráva pro pøíjemce: </span>
+																		</td>
+																		<td align="right">
+																			<div style="font-family:Arial, Helvetica, sans-serif; color:#3cb4e7; font-size:13px; line-height:140%; word-wrap: break-word; width: 300px !important;">Test notifikací</div>
+																		</td>
+																	</tr>
+																</table>
+															</td>
+														</tr>
+													</table>
+												</td>
+												<td class="side-space sm-side-space xs-side-space-20" width="35"></td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+
+								<tr><td height="30"></td></tr>
+
+								<tr>
+									<td height="20" bgcolor="#ececec"></td>
+								</tr>
+
+								<tr><td height="30"></td></tr>
+
+								<tr>
+									<td>
+										<table border="0" cellspacing="0" cellpadding="0" width="100%">
+											<tr>
+												<td class="side-space sm-side-space xs-side-space-20" width="35"></td>
+												<td>
+													<table border="0" cellspacing="0" cellpadding="0" width="100%">
+														<tr>
+															<td align="left">
+                                                            	<span style="font-family:Arial, Helvetica, sans-serif; color:#7b7b7b; font-size:15px; line-height:140%;">V pøípadì nejasností nás mùete kontaktovat na klientské lince pøímého bankovnictví&nbsp;<strong style="color:#49b049">955&nbsp;551&nbsp;552</strong>.
+                                                                <br><br>
+                                                                S pøáním hezkého dne
+                                                                <br><br>
+                                                                Vae Komerèní banka
+                                                                </span>
+															</td>
+														</tr>
+													</table>
+												</td>
+												<td class="side-space sm-side-space xs-side-space-20" width="35"></td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+
+								<tr><td height="30"></td></tr>
+
+								<tr><td height="50" bgcolor="#ececec"></td></tr>
+
+								<tr>
+									<td bgcolor="#ececec">
+										<table border="0" cellspacing="0" cellpadding="0" width="100%">
+											<tr>
+												<td class="xs-side-space-20"></td>
+												<td>
+													<table border="0" cellspacing="0" cellpadding="0" width="100%">
+														<tr>
+															<td width="320" bgcolor="#d5d5d5" style="border-top:#d5d5d5 solid 1px; font-size:1px; line-height:1px;">&nbsp;</td>
+														</tr>
+													</table>
+												</td>
+												<td class="xs-side-space-20"></td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+
+								<tr><td height="50" bgcolor="#ececec"></td></tr>
+
+								<tr><td height="25"></td></tr>
+
+								<tr>
+									<td>
+										<table border="0" cellspacing="0" cellpadding="0" width="100%">
+											<tr>
+												<td class="side-space sm-side-space xs-side-space-20" width="35"></td>
+												<td>
+													<table border="0" cellspacing="0" cellpadding="0" width="100%">
+														<tr>
+															<td align="left">
+                                                            	<span class="xs-headline" style="font-family:Arial Black, Arial, Helvetica, sans-serif; color:#000000; font-size:30px; line-height:120%;"><strong style="text-transform:uppercase">Incoming payment</strong>
+                                                              <br>
+                                                               <br>
+                                                              <span style="font-family:Arial, Helvetica, sans-serif; color:#7b7b7b; font-size:20px; line-height:120%;"><strong style="text-transform:uppercase">AMOUNT: 10,00 CZK</strong></span>
+															</td>
+														</tr>
+													</table>
+												</td>
+												<td class="side-space sm-side-space xs-side-space-20" width="35"></td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+
+								<tr><td height="30"></td></tr>
+
+								<tr>
+									<td>
+										<table border="0" cellspacing="0" cellpadding="0" width="100%">
+											<tr>
+												<td class="side-space sm-side-space xs-side-space-20" width="35"></td>
+												<td>
+													<table border="0" cellspacing="0" cellpadding="0" width="100%">
+														<tr>
+															<td align="left">
+                                                            	<span style="font-family:Arial, Helvetica, sans-serif; color:#7b7b7b; font-size:15px; line-height:140%;">Dear Madam, dear Sir,
+                                                                <br><br>
+                                                                We have credited the payment from account 43-9752450267/0100 to account 43-34180257/0100.
+                                                                </span>
+															</td>
+														</tr>
+													</table>
+												</td>
+												<td class="side-space sm-side-space xs-side-space-20" width="35"></td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+
+								<tr><td height="30"></td></tr>
+
+								<tr>
+									<td height="20" bgcolor="#ececec"></td>
+								</tr>
+
+								<tr><td height="30"></td></tr>
+
+								<tr>
+									<td>
+										<table border="0" cellspacing="0" cellpadding="0" width="100%">
+											<tr>
+												<td class="side-space sm-side-space xs-side-space-20" width="35"></td>
+												<td>
+													<table border="0" cellspacing="0" cellpadding="0" width="100%">
+														<tr>
+															<td align="left">
+                                                            	<span style="font-family:Arial, Helvetica, sans-serif; color:#cc0033; font-size:20px; line-height:120%;"><strong>Payment Information</strong>
+                                                                </span>
+															</td>
+														</tr>
+													</table>
+												</td>
+												<td class="side-space sm-side-space xs-side-space-20" width="35"></td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+
+								<tr><td height="25"></td></tr>
+
+								<tr>
+									<td>
+										<table border="0" cellspacing="0" cellpadding="0" width="100%">
+											<tr>
+												<td class="side-space sm-side-space xs-side-space-20" width="35"></td>
+												<td>
+													<table border="0" cellspacing="0" cellpadding="0" width="100%">
+														<tr>
+															<td width="320" style="border-top:#cc0033 solid 2px; font-size:1px; line-height:1px;">&nbsp;</td>
+														</tr>
+													</table>
+												</td>
+												<td class="side-space sm-side-space xs-side-space-20" width="35"></td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+
+								<tr><td height="25"></td></tr>
+
+								<tr>
+									<td>
+										<table border="0" cellspacing="0" cellpadding="0" width="100%">
+											<tr>
+												<td class="side-space sm-side-space xs-side-space-20" width="35"></td>
+												<td>
+													<table border="0" cellspacing="0" cellpadding="0" width="100%">
+
+														<tr>
+															<td>
+																<table border="0" cellspacing="0" cellpadding="0" width="100%">
+																	<tr>
+																		<td class="xs-hide" width="10"></td>
+																		<td align="left">
+																			<span style="font-family:Arial, Helvetica, sans-serif; color:#686868; font-size:13px; line-height:140%;">Amount and currency: </span>
+																		</td>
+																		<td align="right">
+																			<span style="font-family:Arial, Helvetica, sans-serif; color:#3cb4e7; font-size:13px; line-height:140%;">10,00 CZK</span>
+																		</td>
+																	</tr>
+																</table>
+															</td>
+														</tr>
+														<tr>
+															<td height="20"></td>
+														</tr>
+														<tr>
+															<td>
+																<table border="0" cellspacing="0" cellpadding="0" width="100%">
+																	<tr>
+																		<td class="xs-hide" width="10"></td>
+																		<td align="left">
+																			<span style="font-family:Arial, Helvetica, sans-serif; color:#686868; font-size:13px; line-height:140%;">Your account number: </span>
+																		</td>
+																		<td align="right">
+																			<span style="font-family:Arial, Helvetica, sans-serif; color:#3cb4e7; font-size:13px; line-height:140%;">43-34180257/0100</span>
+																		</td>
+																	</tr>
+																</table>
+															</td>
+														</tr>
+														<tr>
+															<td height="20"></td>
+														</tr>
+														<tr>
+															<td>
+																<table border="0" cellspacing="0" cellpadding="0" width="100%">
+																	<tr>
+																		<td class="xs-hide" width="10"></td>
+																		<td align="left">
+																			<span style="font-family:Arial, Helvetica, sans-serif; color:#686868; font-size:13px; line-height:140%;">Counteraccount number: </span>
+																		</td>
+																		<td align="right">
+																			<span style="font-family:Arial, Helvetica, sans-serif; color:#3cb4e7; font-size:13px; line-height:140%;">43-9752450267/0100</span>
+																		</td>
+																	</tr>
+																</table>
+															</td>
+														</tr>
+														<tr>
+															<td height="20"></td>
+														</tr>
+														<tr>
+															<td>
+																<table border="0" cellspacing="0" cellpadding="0" width="100%">
+																	<tr>
+																		<td width="10"></td>
+																		<td align="left">
+																			<span style="font-family:Arial, Helvetica, sans-serif; color:#686868; font-size:13px; line-height:140%;">Counteraccount name:</span>
+																		</td>
+																		<td align="right">
+																			<span style="font-family:Arial, Helvetica, sans-serif; color:#3cb4e7; font-size:13px; line-height:140%;">BIÈITÌ ADAM</span>
+																		</td>
+																	</tr>
+																</table>
+															</td>
+														</tr>
+														<tr>
+															<td height="20"></td>
+														</tr>
+														<tr>
+															<td>
+																<table border="0" cellspacing="0" cellpadding="0" width="100%">
+																	<tr>
+																		<td class="xs-hide" width="10"></td>
+																		<td align="left">
+																			<span style="font-family:Arial, Helvetica, sans-serif; color:#686868; font-size:13px; line-height:140%;">Due date:</span>
+																		</td>
+																		<td align="right">
+																			<span style="font-family:Arial, Helvetica, sans-serif; color:#3cb4e7; font-size:13px; line-height:140%;">06.05.2020</span>
+																		</td>
+																	</tr>
+																</table>
+															</td>
+														</tr>
+														<tr>
+															<td height="20"></td>
+														</tr>
+														<tr>
+															<td>
+																<table border="0" cellspacing="0" cellpadding="0" width="100%">
+																	<tr>
+																		<td class="xs-hide" width="10"></td>
+																		<td align="left">
+																			<span style="font-family:Arial, Helvetica, sans-serif; color:#686868; font-size:13px; line-height:140%;">Status of the payment:</span>
+																		</td>
+																		<td align="right">
+																			<span style="font-family:Arial, Helvetica, sans-serif; color:#3cb4e7; font-size:13px; line-height:140%;">Recorded</span>
+																		</td>
+																	</tr>
+																</table>
+															</td>
+														</tr>
+														<tr>
+															<td height="20"></td>
+														</tr>
+														<tr>
+															<td>
+																<table border="0" cellspacing="0" cellpadding="0" width="100%">
+																	<tr>
+																		<td class="xs-hide" width="10"></td>
+																		<td align="left">
+																			<span style="font-family:Arial, Helvetica, sans-serif; color:#686868; font-size:13px; line-height:140%;">Variable symbol: </span>
+																		</td>
+																		<td align="right">
+																			<span style="font-family:Arial, Helvetica, sans-serif; color:#3cb4e7; font-size:13px; line-height:140%;">123456789</span>
+																		</td>
+																	</tr>
+																</table>
+															</td>
+														</tr>
+														<tr>
+															<td height="20"></td>
+														</tr>
+														<tr>
+															<td>
+																<table border="0" cellspacing="0" cellpadding="0" width="100%">
+																	<tr>
+																		<td class="xs-hide" width="10"></td>
+																		<td align="left">
+																			<span style="font-family:Arial, Helvetica, sans-serif; color:#686868; font-size:13px; line-height:140%;">Constant symbol: </span>
+																		</td>
+																		<td align="right">
+																			<span style="font-family:Arial, Helvetica, sans-serif; color:#3cb4e7; font-size:13px; line-height:140%;">0</span>
+																		</td>
+																	</tr>
+																</table>
+															</td>
+														</tr>
+														<tr>
+															<td height="20"></td>
+														</tr>
+														<tr>
+															<td>
+																<table border="0" cellspacing="0" cellpadding="0" width="100%">
+																	<tr>
+																		<td class="xs-hide" width="10"></td>
+																		<td align="left">
+																			<span style="font-family:Arial, Helvetica, sans-serif; color:#686868; font-size:13px; line-height:140%;">Specific symbol: </span>
+																		</td>
+																		<td align="right">
+																			<span style="font-family:Arial, Helvetica, sans-serif; color:#3cb4e7; font-size:13px; line-height:140%;">0</span>
+																		</td>
+																	</tr>
+																</table>
+															</td>
+														</tr>
+														<tr>
+															<td height="20"></td>
+														</tr>
+														<tr>
+															<td>
+																<table border="0" cellspacing="0" cellpadding="0" width="100%">
+																	<tr>
+																		<td class="xs-hide" width="10"></td>
+																		<td align="left" valign="top">
+																			<span style="font-family:Arial, Helvetica, sans-serif; color:#686868; font-size:13px; line-height:140%;">Payment description: </span>
+																		</td>
+																		<td align="right">
+																			<div style="font-family:Arial, Helvetica, sans-serif; color:#3cb4e7; font-size:13px; line-height:140%; word-wrap: break-word; width: 300px !important;">Test notifikací</div>
+																		</td>
+																	</tr>
+																</table>
+															</td>
+														</tr>
+													</table>
+												</td>
+												<td class="side-space sm-side-space xs-side-space-20" width="35"></td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+
+								<tr><td height="30"></td></tr>
+
+								<tr>
+									<td height="20" bgcolor="#ececec"></td>
+								</tr>
+
+								<tr><td height="30"></td></tr>
+
+								<tr>
+									<td>
+										<table border="0" cellspacing="0" cellpadding="0" width="100%">
+											<tr>
+												<td class="side-space sm-side-space xs-side-space-20" width="35"></td>
+												<td>
+													<table border="0" cellspacing="0" cellpadding="0" width="100%">
+														<tr>
+															<td align="left">
+                                                            	<span style="font-family:Arial, Helvetica, sans-serif; color:#7b7b7b; font-size:15px; line-height:140%;">In case of doubt, you can contact us on the Direct banking customer service line&nbsp;<strong style="color:#49b049"> +420&nbsp;955&nbsp;551&nbsp;552</strong>.
+                                                                <br><br>
+                                                                Yours sincerely
+                                                                <br><br>
+                                                                Komerèní banka
+                                                                </span>
+															</td>                                                                                                                                                                                                                                                       </tr>
+													</table>
+												</td>
+												<td class="side-space sm-side-space xs-side-space-20" width="35"></td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+
+								<tr><td height="30"></td></tr>
+
+								<tr><td height="35" bgcolor="#ececec"></td></tr>
+
+								<tr>
+									<td align="center" bgcolor="#ececec"><img src="http://www.komercni-banka.info/2018/Smart_Inkaso_format_emailu/1/logo02.jpg" alt="" title="" style="display:block" border="0" height="51" width="59"></td>
+								</tr>
+
+								<tr><td height="35" bgcolor="#ececec"></td></tr>
+
+								<tr>
+									<td align="center" bgcolor="#ececec">
+										<span style="font-family:Arial, Helvetica, sans-serif; color:#7f7f7f; font-size:13px; line-height:120%;"><span style="text-transform:uppercase">Volejte</span> <strong>955 551 552</strong>&nbsp;&nbsp;|&nbsp;&nbsp;<strong>kb.cz</strong></span>
+									</td>
+								</tr>
+
+								<tr><td height="30" bgcolor="#ececec"></td></tr>
+
+							</table>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+</div>
+<span style="font-family: Arial; font-size: 9px;"><br>Tato elektronická zpráva a její pøílohy (dále jen zpráva) je dùvìrná, urèená výhradnì adresátovi/tùm a mùe obsahovat právem chránìné informace. Jakékoli její nedovolené pouití èi roziøování je zakázáno. Pokud nejste zamýleným adresátem, zprávu prosím smate a informujte bezodkladnì telefonicky èi elektronicky odesílatele. Zprávu nesmíte kopírovat nebo pouít pro jakýkoli úèel ani nesmíte sdìlit její obsah ádné dalí osobì. Vzhledem k tomu, e sítì elektronických komunikací nejsou pod naí pøímou kontrolou, neodpovídáme za pøípadnou kodu zpùsobenou pøenosem této zprávy. V pøípadì, e je zpráva souèástí jednání o smlouvì, máme právo ukonèit kdykoliv takové jednání i bez uvedení dùvodu, pøièem smlouva bude uzavøena teprve úplnou dohodou o celém jejím obsahu.<br>E-mailová komunikace s pracovníky KB poskytujícími vybrané investièní sluby je zaznamenávána a uchovávána za úèelem splnìní poadavkù vyplývajících z právních pøedpisù, které upravují poskytování tìchto slueb.<br>Blií informace naleznete na www stránkách KB - Informace o zpracování osobních údajù pro klienty a&nbsp; Informace k MiFID II.<br><br>This electronic message and any attachments (the message) are confidential, intended solely for the addressee(s), and may contain legally privileged information. Any unauthorized use or dissemination is prohibited. If you are not the intended recipient please delete the message and notify immediately by telephoning or e-mailing the sender. You should not copy the message or use it for any purpose nor disclose its contents to any other person. Given that electronic communications network are not under our direct control, we shall not be held liable for any damage caused by transmission hereof. In case the message is a part of contract negotiations, we are entitled to terminate such negotiations at any time and for whatever reason. The contract shall not be executed until the parties reach a full agreement on terms and conditions of such a contract.<br>E-mail communication with KB personnel providing selected investment services is recorded and archived to meet the requirements of the regulation that governs the provision of these services.<br>For more information, please visit the KB website - Information about Processing of Personal Data for Clients and About MiFID II.<br></span></body>
+</html>

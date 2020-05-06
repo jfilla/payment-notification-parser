@@ -15,16 +15,6 @@ class Notification
 
 	private $paymentReferenceNumber;
 
-	private $dueDate;
-
-	private $specificSymbol;
-
-	private $transactionType;
-
-	private $avField;
-
-	private $underlineText;
-
 	public function getSenderAccountNumber()
 	{
 		return $this->senderAccountNumber;
@@ -77,61 +67,6 @@ class Notification
 	public function setPaymentReferenceNumber($paymentReferenceNumber)
 	{
 		$this->paymentReferenceNumber = $paymentReferenceNumber;
-		return $this;
-	}
-
-	public function getDueDate()
-	{
-		return $this->dueDate;
-	}
-
-	public function setDueDate($dueDate)
-	{
-		$this->dueDate = $dueDate;
-		return $this;
-	}
-
-	public function getSpecificSymbol()
-	{
-		return $this->specificSymbol;
-	}
-
-	public function setSpecificSymbol($specificSymbol)
-	{
-		$this->specificSymbol = $specificSymbol;
-		return $this;
-	}
-
-	public function getTransactionType()
-	{
-		return $this->transactionType;
-	}
-
-	public function setTransactionType($transactionType)
-	{
-		$this->transactionType = $transactionType;
-		return $this;
-	}
-
-	public function getAvField()
-	{
-		return $this->avField;
-	}
-
-	public function setAvField($avField)
-	{
-		$this->avField = $avField;
-		return $this;
-	}
-
-	public function getUnderlineText()
-	{
-		return $this->underlineText;
-	}
-
-	public function setUnderlineText($underlineText)
-	{
-		$this->underlineText = $underlineText;
 		return $this;
 	}
 

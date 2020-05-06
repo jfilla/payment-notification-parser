@@ -1,6 +1,0 @@
-#!/usr/bin/env bash
-rd=`dirname $0`
-(
- cd $rd/../
- vendor/bin/tester tests
-)

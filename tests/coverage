@@ -1,5 +1,0 @@
-#!/usr/bin/env bash
-(
- cd dirname $0
- vendor/bin/tester tests --coverage-src src --coverage tests/coverage.html -c tests/php.ini
-)
